@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(){
+
+float distancia;
+float combustivel;
+
+printf ("Digite a distância percorrida:");
+scanf ("%f", &distancia);
+
+printf ("Digite a quantidade de combustível gasto(EM LITROS):");
+scanf ("%f", &combustivel);
+
+float consumo;
+
+consumo=distancia/combustivel;
+
+if (consumo >= 15){
+printf ("Carro econômico");
+}
+return 0;
+}

@@ -1,0 +1,13 @@
+Questão 4 — Busca binária (0,30 pt)
+
+A)R= O pior caso da busca binária com o número 512 é de 9 passos, porque a busca binária é feita
+com divisão por 2, dividindo sempre no meio na busca.
+Ex: 512/2 = 256; (Primeiro passo)
+    256/2 = 128; (Segundo passo)
+    128/2 = 64; (Terceiro passo)
+    64/2 = 32; (Quarto passo)
+    32/2 = 16; (Quinto passo)
+    16/2 = 8; (Sexto passo)
+    8/2 = 4; (Sétimo passo)
+    4/2 = 2; (Oitavo passo)
+    2/2 = 1; (Nono e último passo)

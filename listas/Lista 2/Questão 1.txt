@@ -1,0 +1,16 @@
+Questão 1 — Fundamentos (0,15 pt)
+
+a) (0,10) Toda função recursiva precisa de dois ingredientes obrigatórios. Quais são eles? Ex-
+plique o papel de cada um.
+R= Caso-base:O caso-base é onde o chão da função recursiva, como a função recursiva chama ela mesma,
+imagine ela como uma escada, onde a pessoa deve descer, então chega no chão (O caso-base), onde ela
+deve parar, e subir a escada.
+   Caso-recursivo:Onde a função chama a si mesma com um problema menor — se aproximando do caso-base
+a cada chamada.
+   
+
+b) (0,05) Ordene do mais rápido ao mais lento: O(n2), O(log n), O(n), O(1).
+R= Extremamente veloz: O(1): Tempo constante. O desempenho não muda com o tamanho dos dados.(Acessar o v[i] pelo índice)
+   Rápido: O(log n): Tempo logarítmico. O problema é dividido pela metade a cada passo. (Busca binária).
+   Normal: O(n): Tempo linear. O tempo cresce proporcionalmente ao número de elementos. (busca linear, percorrer um valor)
+   Lento: O(n²): Tempo quadrático. O tempo cresce ao quadrado do número de elementos. (Selection Sort, dois laços aninhados)
